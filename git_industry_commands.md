@@ -9,7 +9,7 @@ Purpose:
 Sets the global username for Git commits.
 
 Example:
-git config --global user.name "Tulasi"
+git config --global user.name "Meghana"
 
 
 git config --global user.email
@@ -22,7 +22,7 @@ Purpose:
 Sets the global email for Git commits.
 
 Example:
-git config --global user.email "tulasi@gmail.com
+git config --global user.email "meghana@gmail.com
 "
 
 git config --list
@@ -72,7 +72,7 @@ Purpose:
 Copies an existing repository.
 
 Example:
-git clone https://github.com/Tulasi-220991/github_commands.git
+git clone https://github.com/meghana-221116/github_commands.git
 
 git clone --branch
 
@@ -83,10 +83,10 @@ Purpose:
 Clones a specific branch.
 
 Example:
-git clone --branch main https://github.com/Tulasi-220991/github_commands.git
+git clone --branch main https://github.com/meghana-221116/github_commands
 
 Screenshot:
-![git config screenshot](screenshot1.png)
+![git config screenshot](screenshot2.png)
 
 git clone --depth
 
@@ -97,7 +97,7 @@ Purpose:
 Creates a shallow clone.
 
 Example:
-git clone --depth 1 https://github.com/Tulasi-220991/github_commands.git
+git clone --depth 1 https://github.com/meghana-221116/github_commands
 
 Screenshot:
 ![git config screenshot](screenshot3.jpeg)
@@ -219,7 +219,7 @@ Example:
 git shortlog
 
 Screenshot:
-![git config screenshot](screenshot4.jpeg)
+![git config screenshot](screenshot4.png)
 
 File Tracking Commands
 
@@ -257,7 +257,7 @@ Example:
 git add -p
 
 Screenshot:
-![git config screenshot](screenshot5.jpeg)
+![git config screenshot](screenshot5.png)
 
 git restore
 
@@ -306,8 +306,6 @@ Renames file.
 Example:
 git mv old.txt new.txt
 
-Screenshot:
-![git config screenshot](screenshot6.jpeg)
 
 Commit Commands
 
@@ -335,7 +333,7 @@ Example:
 git commit -m "Initial commit"
 
 Screenshot:
-![git config screenshot](screenshot7.jpeg)
+![git config screenshot](screenshot6.png)
 
 git commit --amend
 
@@ -349,7 +347,7 @@ Example:
 git commit --amend
 
 Screenshot:
-![git config screenshot](screenshot8.jpeg)
+![git config screenshot](screenshot6.png)
 
 git commit --no-edit
 
@@ -363,7 +361,7 @@ Example:
 git commit --amend --no-edit
 
 Screenshot:
-![git config screenshot](screenshot9.jpeg)
+![git config screenshot](screenshot7.png)
 
 Branch Management Commands
 
@@ -413,7 +411,7 @@ Example:
 git branch -D test-branch
 
 Screenshot:
-![git config screenshot](screenshot10.jpeg)
+![git config screenshot](screenshot8.png)
 
 
 git checkout
@@ -439,7 +437,7 @@ Example:
 git checkout -b feature-branch
 
 Screenshot:
-![git config screenshot](screenshot11.jpeg)
+![git config screenshot](screenshot9.png)
 
 git switch
 
@@ -464,7 +462,7 @@ Example:
 git switch -c new-branch
 
 screenshot:
-![git config screenshot](screenshot11.jpeg)
+![git config screenshot](screenshot10.png)
 
 
 Merge & Integration Commands
@@ -492,7 +490,7 @@ Example:
 git merge --no-ff feature-branch
 
 Screenshot:
-![git config screenshot](screenshot12.jpeg)
+![git config screenshot](screenshot11.png)
 
 Remote Repository Commands
 
@@ -528,7 +526,7 @@ Purpose:
 Adds remote.
 
 Example:
-git remote add origin https://github.com/SriVaishnavi-221142/Github_commands.git
+git remote add origin https://github.com/meghana-221116/github_commands.git
 
 
 git remote remove
@@ -620,7 +618,7 @@ Example:
 git push --force
 
 Screenshot:
-![git config screenshot](screenshot13.jpeg)
+![git config screenshot](screenshot10.jpeg)
 
 Stash Commands
 
@@ -669,7 +667,7 @@ Example:
 git stash apply
 
 screenshot:
-![git config screenshot](screenshot14.jpeg)
+![git config screenshot](screenshot11.png)
 
 git stash drop
 
@@ -740,7 +738,7 @@ Example:
 git reset --hard HEAD~1
 
 screenshot:
-![git config screenshot](screenshot15.jpeg)
+![git config screenshot](screenshot12.jpeg)
 
 git revert
 
@@ -753,8 +751,6 @@ Creates a new commit that undoes changes.
 Example:
 git revert HEAD
 
-screenshot:
-![git config screenshot](screenshot16.jpeg)
 
 git clean -f
 
@@ -779,7 +775,7 @@ Example:
 git clean 
 
 screenshot:
-![git config screenshot](screenshot15.jpeg)
+![git config screenshot](screenshot12.jpeg)
 
 Rebasing Commands
 
@@ -830,8 +826,6 @@ Cancels rebase process.
 Example:
 git rebase --abort
 
-screenshot:
-![git config screenshot](screenshot17.jpeg)
 
 Cherry Pick & Patch Commands
 
@@ -868,8 +862,6 @@ Applies patch file.
 Example:
 git apply 0001-sample.patch
 
-Screenshot:
-![git config screenshot](screenshot18.jpeg)
 
 git am
 
@@ -882,8 +874,6 @@ Applies patch as commit.
 Example:
 git am 0001-sample.patch
 
-Screenshot:
-![git config screenshot](screenshot19.jpeg)
 
 Tagging Commands
 
@@ -921,9 +911,6 @@ Deletes a tag.
 Example:
 git tag -d v1.0
 
-screenshot:
-![git config screenshot](screenshot20.jpeg)
-
 git push origin --tags
 
 Syntax:
@@ -936,7 +923,7 @@ Example:
 git push origin --tags
 
 Screenshot:
-![git config screenshot](screenshot21.jpeg)
+![git config screenshot](screenshot13.png)
 
 Submodule Commands
 
@@ -949,10 +936,8 @@ Purpose:
 Adds a submodule to project.
 
 Example:
-git submodule add https://github.com/SriVaishnavi-221142/Github_commands.git
+git submodule add https://github.com/meghana-221116/github_commands.git
 
-screenshot:
-![git config screenshot](screenshot22.jpeg)
 
 git submodule init
 
@@ -977,7 +962,7 @@ Example:
 git submodule update
 
 Screenshot:
-![git config screenshot](screenshot24.jpeg)
+![git config screenshot](screenshot14.png)
 
 Debugging Commands
 
@@ -1026,4 +1011,4 @@ Example:
 git bisect bad
 
 Screenshot:
-![git config screenshot](screenshot24.jpeg)
+![git config screenshot](screenshot15.png)
